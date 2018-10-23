@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="21cm" height="22cm" viewBox="154 98 403 434" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <polygon style="fill: #ffffff" points="163.9,99.9 320,99.9 320,256 280.975,295.025 163.9,295.025 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="163.9,99.9 320,99.9 320,256 280.975,295.025 163.9,295.025 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #aaaaaa" points="163.9,99.9 320,99.9 320,256 280.975,295.025 163.9,295.025 "/>
+  </g>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="208.4" y="136.9">
+    <tspan x="208.4" y="136.9"> Metadata </tspan>
+    <tspan x="208.4" y="152.9">Document</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="177.95" y="186.9" width="127.15" height="38"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="177.95" y="186.9" width="127.15" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="187.95" y="208.8">
+      <tspan x="187.95" y="208.8">provenance field</tspan>
+    </text>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="391.15,335.9 547.25,335.9 547.25,492 508.225,531.025 391.15,531.025 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="391.15,335.9 547.25,335.9 547.25,492 508.225,531.025 391.15,531.025 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #aaaaaa" points="391.15,335.9 547.25,335.9 547.25,492 508.225,531.025 391.15,531.025 "/>
+  </g>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="436.05" y="373.9">
+    <tspan x="436.05" y="373.9">ISO19115</tspan>
+    <tspan x="436.05" y="389.9">Metadata </tspan>
+    <tspan x="436.05" y="405.9">Document</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="403.55" y="423.9" width="131.3" height="68"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="403.55" y="423.9" width="131.3" height="68"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="413.55" y="445.8">
+      <tspan x="413.55" y="445.8">LI_Lineage</tspan>
+      <tspan x="413.55" y="461.8">    LI_ProcessStep</tspan>
+      <tspan x="413.55" y="477.8">    LI_ProcessStep</tspan>
+    </text>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="164.3,332.9 320.4,332.9 320.4,489 281.375,528.025 164.3,528.025 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="164.3,332.9 320.4,332.9 320.4,489 281.375,528.025 164.3,528.025 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #aaaaaa" points="164.3,332.9 320.4,332.9 320.4,489 281.375,528.025 164.3,528.025 "/>
+  </g>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="190.8" y="370.9">
+    <tspan x="190.8" y="370.9">DCAT Metadata </tspan>
+    <tspan x="190.8" y="386.9">     Document</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="201.35" y="419.9" width="82" height="38"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="201.35" y="419.9" width="82" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="211.35" y="441.8">
+      <tspan x="211.35" y="441.8">dc:source</tspan>
+    </text>
+  </g>
+</svg>

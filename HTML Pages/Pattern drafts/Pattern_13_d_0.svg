@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="24cm" height="9cm" viewBox="1 2 469 166" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #c4bfff" x="168.002" y="15.25" width="116.347" height="58.1733"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="168.002" y="15.25" width="116.347" height="58.1733"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #aaaaaa" x="168.002" y="15.25" width="116.347" height="58.1733"/>
+  </g>
+  <g>
+    <ellipse style="fill: #ffffd6" cx="410.586" cy="44.3367" rx="59.286" ry="26.7013"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="410.586" cy="44.3367" rx="59.286" ry="26.7013"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #aaaaaa" cx="410.586" cy="44.3367" rx="59.286" ry="26.7013"/>
+  </g>
+  <g>
+    <ellipse style="fill: #ffffd6" cx="62.186" cy="44.3367" rx="59.286" ry="26.7013"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="62.186" cy="44.3367" rx="59.286" ry="26.7013"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #aaaaaa" cx="62.186" cy="44.3367" rx="59.286" ry="26.7013"/>
+  </g>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="31.7068" y="48.25">
+    <tspan x="31.7068" y="48.25">Dataset X</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="380.706" y="47.8">
+    <tspan x="380.706" y="47.8">Dataset Y</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="196.707" y="47.8">
+    <tspan x="196.707" y="47.8">Activity X</tspan>
+  </text>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="168.002" y1="44.3367" x2="125.944" y2="44.3367"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="133.708,39.3367 123.708,44.3367 133.708,49.3367 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="284.348" y1="44.3367" x2="346.828" y2="44.3368"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="339.064,49.3368 349.064,44.3368 339.064,39.3368 "/>
+  </g>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="121.707" y="18.8">
+    <tspan x="121.707" y="18.8">used</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="295.706" y="14.8">
+    <tspan x="295.706" y="14.8">generated</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="268" y="91">
+    <tspan x="268" y="91"></tspan>
+  </text>
+  <g>
+    <ellipse style="fill: #ffffd6" cx="62.186" cy="140.601" rx="59.286" ry="26.7013"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="62.186" cy="140.601" rx="59.286" ry="26.7013"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #aaaaaa" cx="62.186" cy="140.601" rx="59.286" ry="26.7013"/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="168.002" y1="44.3367" x2="123.418" y2="136.575"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="122.295,127.409 122.445,138.588 131.299,131.761 "/>
+  </g>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="47.6" y="143.7">
+    <tspan x="47.6" y="143.7">Plan J</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="149.3" y="110.8">
+    <tspan x="149.3" y="110.8">used</tspan>
+  </text>
+</svg>

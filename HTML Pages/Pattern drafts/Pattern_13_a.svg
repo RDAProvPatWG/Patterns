@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="24cm" height="8cm" viewBox="1 2 469 157" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #c4bfff" x="169.003" y="99.25" width="116.347" height="58.1733"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="169.003" y="99.25" width="116.347" height="58.1733"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #aaaaaa" x="169.003" y="99.25" width="116.347" height="58.1733"/>
+  </g>
+  <g>
+    <ellipse style="fill: #ffffd6" cx="410.586" cy="128.337" rx="59.286" ry="26.7013"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="410.586" cy="128.337" rx="59.286" ry="26.7013"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #aaaaaa" cx="410.586" cy="128.337" rx="59.286" ry="26.7013"/>
+  </g>
+  <g>
+    <ellipse style="fill: #ffffd6" cx="410.586" cy="42.9867" rx="59.286" ry="26.7013"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="410.586" cy="42.9867" rx="59.286" ry="26.7013"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #aaaaaa" cx="410.586" cy="42.9867" rx="59.286" ry="26.7013"/>
+  </g>
+  <g>
+    <ellipse style="fill: #ffffd6" cx="62.186" cy="42.9867" rx="59.286" ry="26.7013"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="62.186" cy="42.9867" rx="59.286" ry="26.7013"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #aaaaaa" cx="62.186" cy="42.9867" rx="59.286" ry="26.7013"/>
+  </g>
+  <g>
+    <ellipse style="fill: #ffffd6" cx="62.186" cy="128.337" rx="59.286" ry="26.7013"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="62.186" cy="128.337" rx="59.286" ry="26.7013"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #aaaaaa" cx="62.186" cy="128.337" rx="59.286" ry="26.7013"/>
+  </g>
+  <g>
+    <rect style="fill: #c4bfff" x="169.003" y="13.9" width="116.347" height="58.1733"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="169.003" y="13.9" width="116.347" height="58.1733"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #aaaaaa" x="169.003" y="13.9" width="116.347" height="58.1733"/>
+  </g>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="39" y="45.45">
+    <tspan x="39" y="45.45">Entity A</tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="388" y="47">
+    <tspan x="388" y="47">Entity B</tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="190.003" y="39.9867">
+    <tspan x="190.003" y="39.9867">Specialised</tspan>
+    <tspan x="190.003" y="55.9867">  Activity X</tspan>
+  </text>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="169.003" y1="42.9867" x2="125.944" y2="42.9867"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="133.708,37.9867 123.708,42.9867 133.708,47.9867 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="285.35" y1="42.9867" x2="346.828" y2="42.9867"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="339.064,47.9867 349.064,42.9867 339.064,37.9867 "/>
+  </g>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="122" y="22">
+    <tspan x="122" y="22">used</tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="296" y="14">
+    <tspan x="296" y="14">generated</tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="31.7068" y="132.25">
+    <tspan x="31.7068" y="132.25">Sound File</tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="362.707" y="130.8">
+    <tspan x="362.707" y="130.8">Freq. Spectrum</tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="191.707" y="121.8">
+    <tspan x="191.707" y="121.8">   Fourier </tspan>
+    <tspan x="191.707" y="137.8">Transform X</tspan>
+  </text>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="169.003" y1="128.337" x2="125.944" y2="128.337"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="133.708,123.337 123.708,128.337 133.708,133.337 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="285.35" y1="128.337" x2="346.828" y2="128.337"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="339.064,133.337 349.064,128.337 339.064,123.337 "/>
+  </g>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="121.707" y="102.8">
+    <tspan x="121.707" y="102.8">used</tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="295.707" y="98.8">
+    <tspan x="295.707" y="98.8">generated</tspan>
+  </text>
+</svg>

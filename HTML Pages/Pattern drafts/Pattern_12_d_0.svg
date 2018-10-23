@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg width="24cm" height="33cm" viewBox="7 11 471 670" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <ellipse style="fill: #ffffd6" cx="400.203" cy="645.032" rx="66.9025" ry="30.1317"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="400.203" cy="645.032" rx="66.9025" ry="30.1317"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #aaaaaa" cx="400.203" cy="645.032" rx="66.9025" ry="30.1317"/>
+  </g>
+  <g>
+    <ellipse style="fill: #ffffd6" cx="84.4957" cy="646.132" rx="66.9025" ry="30.1317"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="84.4957" cy="646.132" rx="66.9025" ry="30.1317"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #aaaaaa" cx="84.4957" cy="646.132" rx="66.9025" ry="30.1317"/>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="8.9,12.9 165,12.9 165,169 125.975,208.025 8.9,208.025 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="8.9,12.9 165,12.9 165,169 125.975,208.025 8.9,208.025 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #aaaaaa" points="8.9,12.9 165,12.9 165,169 125.975,208.025 8.9,208.025 "/>
+  </g>
+  <g>
+    <path style="fill: #ffffff" d="M 36.7833 259.9 C 51.1166,259.9 122.783,259.9 137.117,259.9 C 151.45,259.9 151.45,259.9 151.45,270.65 C 151.45,281.4 151.45,302.9 151.45,313.65 C 151.45,324.4 151.45,324.4 137.117,324.4 C 122.783,324.4 51.1166,324.4 36.7833,324.4 C 22.45,324.4 22.45,324.4 22.45,313.65 C 22.45,302.9 22.45,281.4 22.45,270.65 C 22.45,259.9 22.45,259.9 36.7833,259.9z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 36.7833 259.9 C 51.1166,259.9 122.783,259.9 137.117,259.9 C 151.45,259.9 151.45,259.9 151.45,270.65 C 151.45,281.4 151.45,302.9 151.45,313.65 C 151.45,324.4 151.45,324.4 137.117,324.4 C 122.783,324.4 51.1166,324.4 36.7833,324.4 C 22.45,324.4 22.45,324.4 22.45,313.65 C 22.45,302.9 22.45,281.4 22.45,270.65 C 22.45,259.9 22.45,259.9 36.7833,259.9"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" d="M 36.7833 259.9 C 51.1166,259.9 122.783,259.9 137.117,259.9 C 151.45,259.9 151.45,259.9 151.45,270.65 C 151.45,281.4 151.45,302.9 151.45,313.65 C 151.45,324.4 151.45,324.4 137.117,324.4 C 122.783,324.4 51.1166,324.4 36.7833,324.4 C 22.45,324.4 22.45,324.4 22.45,313.65 C 22.45,302.9 22.45,281.4 22.45,270.65 C 22.45,259.9 22.45,259.9 36.7833,259.9"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 0.02; stroke: #000000" d="M 36.7833 259.9 C 51.1166,259.9 122.783,259.9 137.117,259.9 C 151.45,259.9 151.45,259.9 151.45,270.65 C 151.45,281.4 151.45,302.9 151.45,313.65 C 151.45,324.4 151.45,324.4 137.117,324.4 C 122.783,324.4 51.1166,324.4 36.7833,324.4 C 22.45,324.4 22.45,324.4 22.45,313.65 C 22.45,302.9 22.45,281.4 22.45,270.65 C 22.45,259.9 22.45,259.9 36.7833,259.9"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 0.02; stroke: #000000" x1="36.7833" y1="324.4" x2="137.117" y2="324.4"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 0.02; stroke: #000000" x1="151.45" y1="270.65" x2="151.45" y2="313.65"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 0.02; stroke: #000000" x1="22.45" y1="270.65" x2="22.45" y2="313.65"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 0.02; stroke: #000000" x1="36.7833" y1="259.9" x2="137.117" y2="259.9"/>
+    <text font-size="nan" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="86.9499" y="inf">
+      <tspan x="86.9499" y="inf"></tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="165" y1="110.463" x2="315.428" y2="110.463"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="307.664,115.463 317.664,110.463 307.664,105.463 "/>
+  </g>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="178.49" y="316.35">
+    <tspan x="178.49" y="316.35">PROV-O relationship</tspan>
+  </text>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" x1="86.99" y1="209.55" x2="86.9536" y2="255.428"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="81.9597,247.66 86.9518,257.664 91.9597,247.668 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" x1="398" y1="209" x2="397.04" y2="256.429"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="392.199,248.565 396.995,258.664 402.196,248.768 "/>
+  </g>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="368.99" y="208.35">
+    <tspan x="368.99" y="208.35">inferred</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="105.99" y="237.35">
+    <tspan x="105.99" y="237.35">mapped</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="323.9" y="111.8">
+    <tspan x="323.9" y="111.8">Survey 801</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="29.9" y="57.8">
+    <tspan x="29.9" y="57.8">Domain metadata </tspan>
+    <tspan x="29.9" y="73.8">  about object X</tspan>
+  </text>
+  <g>
+    <path style="fill: #ffffff" d="M 346.783 260.9 C 361.117,260.9 432.783,260.9 447.117,260.9 C 461.45,260.9 461.45,260.9 461.45,271.65 C 461.45,282.4 461.45,303.9 461.45,314.65 C 461.45,325.4 461.45,325.4 447.117,325.4 C 432.783,325.4 361.117,325.4 346.783,325.4 C 332.45,325.4 332.45,325.4 332.45,314.65 C 332.45,303.9 332.45,282.4 332.45,271.65 C 332.45,260.9 332.45,260.9 346.783,260.9z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 346.783 260.9 C 361.117,260.9 432.783,260.9 447.117,260.9 C 461.45,260.9 461.45,260.9 461.45,271.65 C 461.45,282.4 461.45,303.9 461.45,314.65 C 461.45,325.4 461.45,325.4 447.117,325.4 C 432.783,325.4 361.117,325.4 346.783,325.4 C 332.45,325.4 332.45,325.4 332.45,314.65 C 332.45,303.9 332.45,282.4 332.45,271.65 C 332.45,260.9 332.45,260.9 346.783,260.9"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" d="M 346.783 260.9 C 361.117,260.9 432.783,260.9 447.117,260.9 C 461.45,260.9 461.45,260.9 461.45,271.65 C 461.45,282.4 461.45,303.9 461.45,314.65 C 461.45,325.4 461.45,325.4 447.117,325.4 C 432.783,325.4 361.117,325.4 346.783,325.4 C 332.45,325.4 332.45,325.4 332.45,314.65 C 332.45,303.9 332.45,282.4 332.45,271.65 C 332.45,260.9 332.45,260.9 346.783,260.9"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 0.02; stroke: #000000" d="M 346.783 260.9 C 361.117,260.9 432.783,260.9 447.117,260.9 C 461.45,260.9 461.45,260.9 461.45,271.65 C 461.45,282.4 461.45,303.9 461.45,314.65 C 461.45,325.4 461.45,325.4 447.117,325.4 C 432.783,325.4 361.117,325.4 346.783,325.4 C 332.45,325.4 332.45,325.4 332.45,314.65 C 332.45,303.9 332.45,282.4 332.45,271.65 C 332.45,260.9 332.45,260.9 346.783,260.9"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 0.02; stroke: #000000" x1="346.783" y1="325.4" x2="447.117" y2="325.4"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 0.02; stroke: #000000" x1="461.45" y1="271.65" x2="461.45" y2="314.65"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 0.02; stroke: #000000" x1="332.45" y1="271.65" x2="332.45" y2="314.65"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 0.02; stroke: #000000" x1="346.783" y1="260.9" x2="447.117" y2="260.9"/>
+    <text font-size="nan" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="396.95" y="inf">
+      <tspan x="396.95" y="inf"></tspan>
+    </text>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="319.9,12.9 476,12.9 476,169 436.975,208.025 319.9,208.025 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="319.9,12.9 476,12.9 476,169 436.975,208.025 319.9,208.025 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #aaaaaa" points="319.9,12.9 476,12.9 476,169 436.975,208.025 319.9,208.025 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="151.45" y1="292.15" x2="327.978" y2="293.125"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="320.186,298.082 330.214,293.138 320.242,288.082 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" x1="242.45" y1="110.463" x2="241.962" y2="288.178"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="236.984,280.4 241.956,290.414 246.984,280.428 "/>
+  </g>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="259.9" y="237.8">
+    <tspan x="259.9" y="237.8">mapped</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="414.9" y="239.8">
+    <tspan x="414.9" y="239.8">mapped</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="35.9" y="297.8">
+    <tspan x="35.9" y="297.8">PROV-O object X</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="347.9" y="298.8">
+    <tspan x="347.9" y="298.8">PROV-O object Y</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="340.9" y="55.8">
+    <tspan x="340.9" y="55.8">Domain metadata </tspan>
+    <tspan x="340.9" y="71.8">  about object Y</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="179.9" y="91.8">
+    <tspan x="179.9" y="91.8">domain relationship</tspan>
+  </text>
+  <g>
+    <polygon style="fill: #ffffff" points="9.9,365.9 166,365.9 166,522 126.975,561.025 9.9,561.025 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="9.9,365.9 166,365.9 166,522 126.975,561.025 9.9,561.025 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #aaaaaa" points="9.9,365.9 166,365.9 166,522 126.975,561.025 9.9,561.025 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="166" y1="463.462" x2="316.428" y2="463.462"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="308.664,468.462 318.664,463.462 308.664,458.462 "/>
+  </g>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="192.49" y="668.35">
+    <tspan x="192.49" y="668.35">wasDerivedFrom</tspan>
+  </text>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" x1="85" y1="562" x2="84.5376" y2="611.528"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="79.6103,603.718 84.5167,613.764 89.6098,603.811 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" x1="400" y1="562" x2="400.185" y2="610.428"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="395.155,602.683 400.193,612.664 405.155,602.645 "/>
+  </g>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="369.99" y="561.35">
+    <tspan x="369.99" y="561.35">inferred</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="106.99" y="590.35">
+    <tspan x="106.99" y="590.35">mapped</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="324.9" y="464.8">
+    <tspan x="324.9" y="464.8">Survey 801</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="21.9" y="411.8">
+    <tspan x="21.9" y="411.8">ISO19115 Dataset X</tspan>
+  </text>
+  <g>
+    <polygon style="fill: #ffffff" points="320.9,365.9 477,365.9 477,522 437.975,561.025 320.9,561.025 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="320.9,365.9 477,365.9 477,522 437.975,561.025 320.9,561.025 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #aaaaaa" points="320.9,365.9 477,365.9 477,522 437.975,561.025 320.9,561.025 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="151.398" y1="646.132" x2="328.828" y2="645.059"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="321.094,650.106 331.064,645.046 321.034,640.106 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" x1="243.45" y1="463.462" x2="242.377" y2="641.11"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="237.424,633.316 242.364,643.346 247.424,633.376 "/>
+  </g>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="260.9" y="590.8">
+    <tspan x="260.9" y="590.8">mapped</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="415.9" y="592.8">
+    <tspan x="415.9" y="592.8">mapped</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="58.9" y="647.8">
+    <tspan x="58.9" y="647.8">Entity X</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="196.9" y="418.8">
+    <tspan x="196.9" y="418.8">     ISO19115</tspan>
+    <tspan x="196.9" y="434.8">AssociationType</tspan>
+    <tspan x="196.9" y="450.8"> "derivedFrom"</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="375.3" y="647.8">
+    <tspan x="375.3" y="647.8">Entity Y</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="336.3" y="412.8">
+    <tspan x="336.3" y="412.8">ISO19115 Dataset Y</tspan>
+  </text>
+</svg>

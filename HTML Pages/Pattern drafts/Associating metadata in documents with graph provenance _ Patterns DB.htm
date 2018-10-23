@@ -1,0 +1,213 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="/pattern/12" />
+<link rel="shortlink" href="/node/101" />
+<link rel="shortcut icon" href="https://patterns.promsns.org/sites/all/themes/bartik_rda/favicon.ico" type="image/vnd.microsoft.icon" />
+  <title>Associating metadata in documents with graph provenance | Patterns DB</title>
+  <link type="text/css" rel="stylesheet" href="https://patterns.promsns.org/sites/default/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://patterns.promsns.org/sites/default/files/css/css_GqCqCmGspWzZsDVTgkFoFb2eEt4xaByq4GFNcVi8QG4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://patterns.promsns.org/sites/default/files/css/css_TsVRTbLFUpEZAfw-_bWPJu840QT523CPjUVJ5MRWfyk.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://patterns.promsns.org/sites/default/files/css/css_PGbJgHCUCBf4dg7K9Kt8aAwsApndP4GZ9RuToPy3-Fk.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://patterns.promsns.org/sites/default/files/css/css_J7dPXzusCTchouEa5IYtBjf1Qnuc1udxWzg0DrImhGQ.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://patterns.promsns.org/sites/default/files/css/css_2THG1eGiBIizsWFeexsNe1iDifJ00QRS9uSd03rY9co.css" media="print" />
+
+<!--[if lte IE 7]>
+<link type="text/css" rel="stylesheet" href="https://patterns.promsns.org/sites/all/themes/bartik_rda/css/ie.css?pgsv3l" media="all" />
+<![endif]-->
+
+<!--[if IE 6]>
+<link type="text/css" rel="stylesheet" href="https://patterns.promsns.org/sites/all/themes/bartik_rda/css/ie6.css?pgsv3l" media="all" />
+<![endif]-->
+  <script type="text/javascript" src="https://patterns.promsns.org/sites/default/files/js/js_vDrW3Ry_4gtSYaLsh77lWhWjIC6ml2QNkcfvfP5CVFs.js"></script>
+<script type="text/javascript" src="https://patterns.promsns.org/sites/default/files/js/js_fDQT1gZ2p-T1RIrXnw1m0oOX8t5dc3QE3iAHwjer0Ao.js"></script>
+<script type="text/javascript" src="https://patterns.promsns.org/sites/default/files/js/js_gfMZrDtZJEt_wHh11B3vnaTr_0-xrUMZeQYFytt0jOE.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"bartik_rda","theme_token":"2U6GN831xK9LnIQu2eODpR5Cdwc_Gemw08dwoehI4rc","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"misc\/ui\/jquery.ui.core.min.js":1,"misc\/ui\/jquery.ui.widget.min.js":1,"misc\/ui\/jquery.ui.button.min.js":1,"misc\/ui\/jquery.ui.mouse.min.js":1,"misc\/ui\/jquery.ui.draggable.min.js":1,"misc\/ui\/jquery.ui.position.min.js":1,"misc\/ui\/jquery.ui.resizable.min.js":1,"misc\/ui\/jquery.ui.dialog.min.js":1,"sites\/all\/modules\/views\/js\/jquery.ui.dialog.patch.js":1,"misc\/ajax.js":1,"misc\/progress.js":1,"sites\/all\/modules\/autologout\/autologout.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.button.css":1,"misc\/ui\/jquery.ui.resizable.css":1,"misc\/ui\/jquery.ui.dialog.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/themes\/bartik_rda\/css\/layout.css":1,"sites\/all\/themes\/bartik_rda\/css\/style.css":1,"sites\/all\/themes\/bartik_rda\/css\/colors.css":1,"sites\/all\/themes\/bartik_rda\/css\/print.css":1,"sites\/all\/themes\/bartik_rda\/css\/ie.css":1,"sites\/all\/themes\/bartik_rda\/css\/ie6.css":1}},"autologout":{"timeout":1800000,"timeout_padding":10000,"message":"Your session is about to expire. Do you want to reset it?","redirect_url":"\/user\/login?destination=node\/101\u0026autologout_timeout=1","title":"Patterns DB Alert","refresh_only":false,"no_dialog":false,"use_alt_logout_method":false}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front logged-in one-sidebar sidebar-first page-node page-node- page-node-101 node-type-patterns" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="page-wrapper"><div id="page">
+
+  <div id="header" class="with-secondary-menu"><div class="section clearfix">
+
+          <a href="/" title="Home" rel="home" id="logo">
+        <img src="https://patterns.promsns.org/sites/all/themes/bartik_rda/rda_square.png" alt="Home" />
+      </a>
+    
+          <div id="name-and-slogan">
+
+                              <div id="site-name">
+              <strong>
+                <a href="/" title="Home" rel="home"><span>Patterns DB</span></a>
+              </strong>
+            </div>
+                  
+        
+      </div> <!-- /#name-and-slogan -->
+    
+    
+          <div id="main-menu" class="navigation">
+        <h2 class="element-invisible">Main menu</h2><ul id="main-menu-links" class="links clearfix"><li class="menu-219 first"><a href="/">Home</a></li>
+<li class="menu-397"><a href="/usecases" title="">Use Cases</a></li>
+<li class="menu-398"><a href="/patterns" title="">Patterns</a></li>
+<li class="menu-399"><a href="/implementations" title="">Implementations</a></li>
+<li class="menu-401"><a href="/actors" title="">Actors</a></li>
+<li class="menu-400"><a href="/initiatives" title="">Initiatives</a></li>
+<li class="menu-402"><a href="/about">About</a></li>
+<li class="menu-403 last"><a href="/contact">Contact</a></li>
+</ul>      </div> <!-- /#main-menu -->
+    
+          <div id="secondary-menu" class="navigation">
+        <h2 class="element-invisible">Secondary menu</h2><ul id="secondary-menu-links" class="links inline clearfix"><li class="menu-2 first"><a href="/user">My account</a></li>
+<li class="menu-15 last"><a href="/user/logout">Log out</a></li>
+</ul>      </div> <!-- /#secondary-menu -->
+    
+  </div></div> <!-- /.section, /#header -->
+
+  
+  
+  <div id="main-wrapper" class="clearfix"><div id="main" class="clearfix">
+
+          <div id="breadcrumb"><h2 class="element-invisible">You are here</h2><div class="breadcrumb"><a href="/">Home</a></div></div>
+    
+          <div id="sidebar-first" class="column sidebar"><div class="section">
+          <div class="region region-sidebar-first">
+    <div id="block-system-navigation" class="block block-system block-menu">
+
+    <h2>Navigation</h2>
+  
+  <div class="content">
+    <ul class="menu clearfix"><li class="first last collapsed"><a href="/node/add">Add content</a></li>
+</ul>  </div>
+</div>
+  </div>
+      </div></div> <!-- /.section, /#sidebar-first -->
+    
+    <div id="content" class="column"><div class="section">
+            <a id="main-content"></a>
+                    <h1 class="title" id="page-title">
+          Associating metadata in documents with graph provenance        </h1>
+                          <div class="tabs">
+                  </div>
+                          <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <div id="node-101" class="node node-patterns node-promoted node-full clearfix" about="/pattern/12" typeof="sioc:Item foaf:Document">
+
+      <span property="dc:title" content="Associating metadata in documents with graph provenance" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2018-04-30T07:41:38-05:00" datatype="xsd:dateTime" rel="sioc:has_creator">Submitted by <span class="username" xml:lang="" about="/user/1" typeof="sioc:UserAccount" property="foaf:name" datatype="">admin</span> on Mon, 04/30/2018 - 07:41</span>    </div>
+  
+  <div class="content clearfix">
+    <div class="field field-name-field-contributor field-type-text field-label-above"><div class="field-label">Contributor:&nbsp;</div><div class="field-items"><div class="field-item even">Nicholas Car</div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><h2>Introduction</h2>
+
+<p>Many organisations already contains systems that deliver metadata about objects for which they now want to deliver standardised, graph-based provenance information, perhaps using PROV. These metadata systems, such as catalogues, sometimes have legacy methods for delivering provenance or lineage, such as free text fields perhaps linked to the items as a dc:source property. Sometimes, as per ISO19115-2 documents, structured machine-readable provenance is given but it is not able to be directly mapped to PROV.</p>
+
+<h2>Patterns</h2>
+
+<h3>Antipattern: current document practice</h3>
+
+<p>The figure below shows the sort of arrangement people are familiar with regarding document metadata and provenance. In the first part of the figure, a generic metadata document is shown with a "provenance field" in which structured or un-structored provenance (sometimes called lineage) may be recorded. In the second part of the figure, a DCAT metadata document with a free text dc:source an an ISO19115 metadata document with a structured  LI_Lineage field are shown as examples.</p>
+
+<p>This is now considered an antipattern for provenance or, at least, not best practice. The reasons for this are that provenance, when recorded within a document like this, cannot easily be machine read and elements of it cannot be reused by other items without simply copying the provenance completely. This will be both inefficient when large volumes of provenance are recorded and unable to create a network of provenance that can be used to traverse relationships between things.</p>
+
+<p><img src="https://patterns.promsns.org/sites/default/files/Pattern_12_a.svg" alt="" title="" width="500px" /></p>
+
+<p>There may well be good reasons to use document-based provenance but the recommendation here is to, where possible, move to machine-readable, standardised provenance using one of the three patterns described below.</p>
+
+<h3>Pattern 12.1: PROV-AQ linking</h3>
+
+<p>The <a href="https://www.w3.org/TR/prov-aq/">PROV-AQ</a> part of the PROV family of documents ("Access &amp; Query") specifies the use of a <em>has_provenance</em> property to indicate a relationship to a PROV-O compliant provenance document. Additionally there is a <em>has_query_service</em> that can be used to relate something to an undefined type of query service used to deliver provenance. Pattern 12.1, shown in the figure below, recommends using either of these two relationships to link a metadata document to either a provenance document or a query service about the item the metadata is for.</p>
+
+<p><img src="https://patterns.promsns.org/sites/default/files/Pattern_12_b.svg" alt="" title="" width="500px" /></p>
+
+<p>When <em>has_provenance</em> is used, the target of the relationship can be inferred to be a <em>prov:Bundle</em> object, which is a collection of provenance information.</p>
+
+<p>When <em>has_query_service</em> is used, the target may be a SPARQL service or some other sort of service (perhaps a RESTful API) but it must return PROV-O compliant information about the document metadata’s object. The service’s own metadata, not the object’s document metadata, should describe what it is and how it functions.</p>
+
+<h3>Pattern 12.2: linking directly with PROV-O relations</h3>
+
+<p>For Pattern 12.2, we treat the object which the document metadata is about as a PROV-O object and use normal PROV-O relationships to link it to other things, perhaps themselves described with document metadata but not necessarily: either way, we then also treat as PROV-O objects. OWL inferencing can then be used to understand what the PROV-O classes of the objects are.</p>
+
+<p><img src="https://patterns.promsns.org/sites/default/files/Pattern_12_c.svg" alt="" title="" height="700px" /></p>
+
+<p>In the example shown in the figure above, <em>wasGeneratedBy</em> relationship is used to indicate that the Dataset "Gravity Map for the Bowen Basin" was generated by "Survey 801". Given that <em>wasGeneratedBy</em> has a domain of an <em>Entity</em> and the range of an <em>Activity</em>, we can infer that the Dataset is an Entity and the Survey is an Activity.</p>
+
+<p>This pattern has the effect of encoding single subject predicate object relationships or "triples" in legacy catalogues which when they are all extracted from the legacy system can be interpreted as a graph.</p>
+
+<p>It may not always be possible to deliver PROV-O properties in legacy metadata systems. One solutions to this is given in Pattern 12.3.</p>
+
+<h3>Pattern 12.3: linking with other properties interpretable as PROV-O</h3>
+
+<p>It's not always possible to link objects using PROV-O relationships. Sometimes, legacy systems don't allow for relationships according to models other than their own. In these circumstances we use Pattern 12.3 where objects with document metadata are conceptually mapped to PROV-O class types and then relationships between them or other objects are described using domain-specific semantics that are then mapped to PROV-O properties.</p>
+
+<p>A combination of this approach and Pattern 12.3 can be used whereby only domain-specific properties are mapped. If this is done, only properties with single-class domain &amp; range values can be used to ensure there is no abiguity regarding the object’s representations in PROV-O (e.g. Object X <em>wasAttributedTo</em> Object Y is understandable only with Object X as an Entity and Object Y as an Agent due to <em>wasAttributedTo</em>’s domains and ranges. For Object X <em>wasInfluencedBy</em> Object Y, no specific indication of PROV-O classes for Object &amp; or Y is given since <em>wasInfluencedBy</em> has multiple PROV-O class domain &amp; range values.</p>
+
+<p>It is not recommended to map classes only as there are multiple possible PROV-O relationships between objects of particular classes.</p>
+
+<p>In the figure below, the generic case for this pattern is shown at the top. Below it is shown an example of a mapping whereby an ISO19115-compliant catalogue is used to record a relationship between a "Dataset X" &amp; "Dataset Y". The relationship is one of "derivedFrom" which is an association type code <a href="http://pid.geoscience.gov.au/def/schema/ga/">published by Geoscience Australia</a> specifically to indicate a <em>wasDerivedFrom</em> relationship.</p>
+
+<p><img src="https://patterns.promsns.org/sites/default/files/Pattern_12_d.svg" alt="" title="" height="700px" /></p>
+
+<h2>Summary</h2>
+
+<p>Do not use document-based metadata fields, such as Dublin Core's dc:source or ISO19115's LI_Lineage.</p>
+
+<p>Use a method to link objects or documents that is recommended in PROV-AQ or that can be interpreted as PROV-O.</p>
+</div></div></div><div class="field field-name-field-svg-image field-type-file field-label-above"><div class="field-label">SVG Image:&nbsp;</div><div class="field-items"><div class="field-item even"><span class="file"><img class="file-icon" alt="File" title="image/svg+xml" src="/modules/file/icons/image-x-generic.png" /> <a href="https://patterns.promsns.org/sites/default/files/Pattern_12_a_0.svg" type="image/svg+xml; length=3877">Pattern_12_a.svg</a></span></div><div class="field-item odd"><span class="file"><img class="file-icon" alt="File" title="image/svg+xml" src="/modules/file/icons/image-x-generic.png" /> <a href="https://patterns.promsns.org/sites/default/files/Pattern_12_b_0.svg" type="image/svg+xml; length=5108">Pattern_12_b.svg</a></span></div><div class="field-item even"><span class="file"><img class="file-icon" alt="File" title="image/svg+xml" src="/modules/file/icons/image-x-generic.png" /> <a href="https://patterns.promsns.org/sites/default/files/Pattern_12_c_0.svg" type="image/svg+xml; length=12616">Pattern_12_c.svg</a></span></div><div class="field-item odd"><span class="file"><img class="file-icon" alt="File" title="image/svg+xml" src="/modules/file/icons/image-x-generic.png" /> <a href="https://patterns.promsns.org/sites/default/files/Pattern_12_d_0.svg" type="image/svg+xml; length=15397">Pattern_12_d.svg</a></span></div></div></div><div class="field field-name-field-related-use-case field-type-node-reference field-label-above"><div class="field-label">Related Use Case:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/usecase/22">Click through the provenance of a registered item and back</a></div><div class="field-item odd"><a href="/usecase/39">Record standards-compliant provenance for datasets in a legacy data catalogue</a></div></div></div><div class="field field-name-field-implementations field-type-node-reference field-label-above"><div class="field-label">Implementations:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/implementation/38">Geoscience Australia&#039;s metadata catalogue</a></div></div></div>  </div>
+
+  
+  
+</div>
+  </div>
+</div>
+  </div>
+      
+    </div></div> <!-- /.section, /#content -->
+
+    
+  </div></div> <!-- /#main, /#main-wrapper -->
+
+  
+  <div id="footer-wrapper"><div class="section">
+
+    
+          <div id="footer" class="clearfix">
+          <div class="region region-footer">
+    <div id="block-system-powered-by" class="block block-system">
+
+    
+  <div class="content">
+    <span>Powered by <a href="https://www.drupal.org">Drupal</a></span>  </div>
+</div>
+  </div>
+      </div> <!-- /#footer -->
+    
+  </div></div> <!-- /.section, /#footer-wrapper -->
+
+</div></div> <!-- /#page, /#page-wrapper -->
+    <div class="region region-page-bottom">
+    <form id="autologout-cache-check"><input type="hidden" id="autologout-cache-check-bit" value="0" /></form>  </div>
+</body>
+</html>

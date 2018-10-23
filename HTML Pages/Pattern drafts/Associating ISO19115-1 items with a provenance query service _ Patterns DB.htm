@@ -1,0 +1,295 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="/content/associating-iso19115-1-items-provenance-query-service" />
+<link rel="shortlink" href="/node/99" />
+<link rel="shortcut icon" href="https://patterns.promsns.org/sites/all/themes/bartik_rda/favicon.ico" type="image/vnd.microsoft.icon" />
+  <title>Associating ISO19115-1 items with a provenance query service | Patterns DB</title>
+  <link type="text/css" rel="stylesheet" href="https://patterns.promsns.org/sites/default/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://patterns.promsns.org/sites/default/files/css/css_GqCqCmGspWzZsDVTgkFoFb2eEt4xaByq4GFNcVi8QG4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://patterns.promsns.org/sites/default/files/css/css_TsVRTbLFUpEZAfw-_bWPJu840QT523CPjUVJ5MRWfyk.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://patterns.promsns.org/sites/default/files/css/css_ZHDNs03SaRj4qj6dMY6pt9MYNp-zWCcoGY_tWASSmxQ.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://patterns.promsns.org/sites/default/files/css/css_J7dPXzusCTchouEa5IYtBjf1Qnuc1udxWzg0DrImhGQ.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://patterns.promsns.org/sites/default/files/css/css_2THG1eGiBIizsWFeexsNe1iDifJ00QRS9uSd03rY9co.css" media="print" />
+
+<!--[if lte IE 7]>
+<link type="text/css" rel="stylesheet" href="https://patterns.promsns.org/sites/all/themes/bartik_rda/css/ie.css?pgsv3l" media="all" />
+<![endif]-->
+
+<!--[if IE 6]>
+<link type="text/css" rel="stylesheet" href="https://patterns.promsns.org/sites/all/themes/bartik_rda/css/ie6.css?pgsv3l" media="all" />
+<![endif]-->
+  <script type="text/javascript" src="https://patterns.promsns.org/sites/default/files/js/js_vDrW3Ry_4gtSYaLsh77lWhWjIC6ml2QNkcfvfP5CVFs.js"></script>
+<script type="text/javascript" src="https://patterns.promsns.org/sites/default/files/js/js_JEOLb_4dM11c8ZbOuMqpwVmmbb5AMheOYO3s96iF_XE.js"></script>
+<script type="text/javascript" src="https://patterns.promsns.org/sites/default/files/js/js_KMX6GfnN909A1vRb8d3bQGGShLT1kUQKgLBeZdfDgOU.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"bartik_rda","theme_token":"2U6GN831xK9LnIQu2eODpR5Cdwc_Gemw08dwoehI4rc","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"misc\/ui\/jquery.ui.core.min.js":1,"misc\/ui\/jquery.ui.widget.min.js":1,"misc\/ui\/jquery.ui.button.min.js":1,"misc\/ui\/jquery.ui.mouse.min.js":1,"misc\/ui\/jquery.ui.draggable.min.js":1,"misc\/ui\/jquery.ui.position.min.js":1,"misc\/ui\/jquery.ui.resizable.min.js":1,"misc\/ui\/jquery.ui.dialog.min.js":1,"sites\/all\/modules\/views\/js\/jquery.ui.dialog.patch.js":1,"misc\/form.js":1,"misc\/ajax.js":1,"misc\/progress.js":1,"sites\/all\/modules\/autologout\/autologout.js":1,"sites\/all\/modules\/captcha\/captcha.js":1,"misc\/textarea.js":1,"modules\/filter\/filter.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.button.css":1,"misc\/ui\/jquery.ui.resizable.css":1,"misc\/ui\/jquery.ui.dialog.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"modules\/filter\/filter.css":1,"sites\/all\/themes\/bartik_rda\/css\/layout.css":1,"sites\/all\/themes\/bartik_rda\/css\/style.css":1,"sites\/all\/themes\/bartik_rda\/css\/colors.css":1,"sites\/all\/themes\/bartik_rda\/css\/print.css":1,"sites\/all\/themes\/bartik_rda\/css\/ie.css":1,"sites\/all\/themes\/bartik_rda\/css\/ie6.css":1}},"autologout":{"timeout":1800000,"timeout_padding":10000,"message":"Your session is about to expire. Do you want to reset it?","redirect_url":"\/user\/login?destination=node\/99\u0026autologout_timeout=1","title":"Patterns DB Alert","refresh_only":false,"no_dialog":false,"use_alt_logout_method":false},"wysiwyg":{"triggers":{"edit-comment-body-und-0-value":{"field":"edit-comment-body-und-0-value","resizable":1,"select":"edit-comment-body-und-0-format--2"}}},"urlIsAjaxTrusted":{"\/comment\/reply\/99":true}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front logged-in one-sidebar sidebar-first page-node page-node- page-node-99 node-type-patterns" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="page-wrapper"><div id="page">
+
+  <div id="header" class="with-secondary-menu"><div class="section clearfix">
+
+          <a href="/" title="Home" rel="home" id="logo">
+        <img src="https://patterns.promsns.org/sites/all/themes/bartik_rda/rda_square.png" alt="Home" />
+      </a>
+    
+          <div id="name-and-slogan">
+
+                              <div id="site-name">
+              <strong>
+                <a href="/" title="Home" rel="home"><span>Patterns DB</span></a>
+              </strong>
+            </div>
+                  
+        
+      </div> <!-- /#name-and-slogan -->
+    
+    
+          <div id="main-menu" class="navigation">
+        <h2 class="element-invisible">Main menu</h2><ul id="main-menu-links" class="links clearfix"><li class="menu-219 first"><a href="/">Home</a></li>
+<li class="menu-397"><a href="/usecases" title="">Use Cases</a></li>
+<li class="menu-398"><a href="/patterns" title="">Patterns</a></li>
+<li class="menu-399"><a href="/implementations" title="">Implementations</a></li>
+<li class="menu-401"><a href="/actors" title="">Actors</a></li>
+<li class="menu-400"><a href="/initiatives" title="">Initiatives</a></li>
+<li class="menu-402"><a href="/about">About</a></li>
+<li class="menu-403 last"><a href="/contact">Contact</a></li>
+</ul>      </div> <!-- /#main-menu -->
+    
+          <div id="secondary-menu" class="navigation">
+        <h2 class="element-invisible">Secondary menu</h2><ul id="secondary-menu-links" class="links inline clearfix"><li class="menu-2 first"><a href="/user">My account</a></li>
+<li class="menu-15 last"><a href="/user/logout">Log out</a></li>
+</ul>      </div> <!-- /#secondary-menu -->
+    
+  </div></div> <!-- /.section, /#header -->
+
+  
+  
+  <div id="main-wrapper" class="clearfix"><div id="main" class="clearfix">
+
+          <div id="breadcrumb"><h2 class="element-invisible">You are here</h2><div class="breadcrumb"><a href="/">Home</a></div></div>
+    
+          <div id="sidebar-first" class="column sidebar"><div class="section">
+          <div class="region region-sidebar-first">
+    <div id="block-system-navigation" class="block block-system block-menu">
+
+    <h2>Navigation</h2>
+  
+  <div class="content">
+    <ul class="menu clearfix"><li class="first last collapsed"><a href="/node/add">Add content</a></li>
+</ul>  </div>
+</div>
+  </div>
+      </div></div> <!-- /.section, /#sidebar-first -->
+    
+    <div id="content" class="column"><div class="section">
+            <a id="main-content"></a>
+                    <h1 class="title" id="page-title">
+          Associating ISO19115-1 items with a provenance query service        </h1>
+                          <div class="tabs">
+                  </div>
+                          <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <div id="node-99" class="node node-patterns node-promoted node-full clearfix" about="/content/associating-iso19115-1-items-provenance-query-service" typeof="sioc:Item foaf:Document">
+
+      <span property="dc:title" content="Associating ISO19115-1 items with a provenance query service" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2018-04-30T07:41:38-05:00" datatype="xsd:dateTime" rel="sioc:has_creator">Submitted by <span class="username" xml:lang="" about="/user/1" typeof="sioc:UserAccount" property="foaf:name" datatype="">admin</span> on Mon, 04/30/2018 - 07:41</span>    </div>
+  
+  <div class="content clearfix">
+    <div class="field field-name-field-contributor field-type-text field-label-above"><div class="field-label">Contributor:&nbsp;</div><div class="field-items"><div class="field-item even">Every Bleys</div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><h2>Introduction</h2>
+<p>Organisations wishing to associate items in an ISO19115-1-conformant catalogue with graph-based provenance delivered by a provenance query service (likely a SPARQL service) may wish to make the link to that service as visible as possible to people used to the ISO19115-1 norms. Since ISO19115-1 typically uses the <em>Lineage</em> field for structured or un-structured lineage information (provenance), this pattern suggests making that link to the provenance query service in that field.</p>
+<h2>Prerequisite</h2>
+<p>PROV DM in OWL ontology form (<a href="https://www.w3.org/TR/prov-o/">PROV-O</a>) and SPARQL services require the identification of provenance objects using <a href="https://en.wikipedia.org/wiki/Uniform_Resource_Identifier">HTTP URIs</a>. For this reason, any object catalogued according to ISO19115-1 wanting to link to a provenance query service as described here must be able to be referred to by URI. Some ISO19115-1-compliant catalogues use URIs but some only use UUIDs and do not provide persistent URIs base on those UUIDs. An effort must be made to establish persistent URIs using those UUIDs before integration with a provenance query service.</p>
+<h2>Implementation</h2>
+<p>This pattern is a specialisation of <a href="http://patterns.promsns.org/pattern/12">Pattern 12.1</a>. It suggests placing a <em>has_query_service</em> link, as <a href="https://www.w3.org/TR/prov-aq/">PROV-AQ</a> calls it, in the <em>LI_Lineage</em> field in a manner conformant with ISO19115-1.</p>
+<p><img src="http://patterns.promsns.org/sites/default/files/Pattern_25.svg#overlay-context=pattern/25" alt="Pattern 25 diagram" style="width:500px" /></p>
+<h3>In PROV terms</h3>
+<p>Using this method, we can work out that the query service itself is a PROV Entity (when described) and an Agent (when performing actions like causing Entities to be generated) but we can't say anything, in PROV terms, about the item linking to the query service. It could be any class of PROV object since any object may have provenance about it made available by a query service. Having said that, it is likely to be an Entity as ISO19115-1 catalogues tend to store information about sorts of Entities such as Datasets or Images.</p>
+<h3>ISO19115-1 Structure</h3>
+<p>The suggested structure is for the <em>resourceLineage</em> field of a metadata document to contain a <em>LI_Lineage</em> element containing a <em>LI_Source</em> which, in turn, cites an <em>CI_OnlineResource</em> which is described by a <em>name</em>, <em>function</em>, <em>linkage</em>, <em>protocol</em> &amp; <em>protocolRequest</em>. Note that ISO191151 documents may contain multiple <em>LI_Lineage</em> objects within a <em>resourceLineage</em> field so that a reference to a provenance query service may be made alongside written statements of provenance, which are the current usage norm, or other structured lineage.</p>
+<p>The specific elements that should be used to communicate that the metadata document is linking to a query service are described here:</p>
+<ul><li><strong>CI_Citation.title</strong> - compulsory for any CI_Citation use.  Should indicate a well-known name for the thing cited - the query service. Could be a phrase similar to "Organisation Z's Provenance Query Service".</li>
+<li><strong>CI_OnlineResource.name</strong> - optional. Likely a something similar to the citation title above.</li>
+<li><strong>CI_OnlineResource.function</strong> - required. The code term provenanceQueryService should be used.<br />
+ This term is available in the Geoscience Australia codelist extension to ISO19115-1's <em>CI_OnlineFunctionTypeCode</em> code list.</li>
+<li><strong>CI_OnlineResource.linkage</strong> - the URI to the endpoint of the query service</li>
+<li><strong>CI_OnlineResource.protocol</strong> - required. While ISO19115-1 treats this field as free text, the widely-used IDO19115-1 catalogue tool GeoNetwork implements a code list for it in its <a href="https://vocabs.ands.org.au/protocol-type">ISO19115-1 protocols vocabulary</a>. Geosciecne Australia includes a term to indicate SPARQL services "HTTP-SPARQL" and this should be used in the case of a SPARQL service.</li>
+<li><strong>CI_OnlineResource.protocolRequest</strong> - optional. An example request. The most basic SPARQL query that could be used to find information about a resource is a <em>DESCRIBE</em> query which can be lodged over HTTP via a GET request. This field should give an example of that, or another query service's most basic query. For a SPARQL service, it would also need to indicate how to identify the resource being queried for which is the resource the ISO metadata is describing. In the SPARQL case, the query would be  <code>DESCRIBE &lt;resource&gt;;</code> and if the resource was identifiable via a URI, perhaps <a href="http://example.com/dataset/x">http://example.com/dataset/x</a>, then it would be <code>DESCRIBE &lt;http://example.com/dataset/x&gt;;</code>. The full information for this filed then would be that query as a provenance service request action and would just be an HTTP GET link. See the example below.</li>
+</ul><pre>
+<code>
+&lt;mdb:resourceLineage&gt;
+  &lt;mrl:LI_Lineage&gt;
+    &lt;mrl:LI_Source&gt;
+      &lt;mrl:sourceCitation&gt;
+        &lt;cit:CI_Citation&gt;
+          &lt;cit:title&gt;
+            &lt;gco:CharacterString&gt;{SERVICE_NAME}&lt;/gco:CharacterString&gt;
+          &lt;/cit:title&gt;
+          &lt;cit:onlineResource&gt;
+            &lt;mcc:CI_OnlineResource&gt;
+            &lt;cit:name&gt;
+              &lt;gco:CharacterString&gt;{SERVICE_NAME}&lt;/CharacterString&gt;
+            &lt;/cit:name&gt;
+            &lt;cit:function&gt;
+              &lt;cit:CI_OnLineFunctionCode codeList="codeListLocation#CI_OnLineFunctionCode" codeListValue="provenanceQueryService"/&gt;
+            &lt;/cit:function&gt;
+            &lt;cit:linkage&gt;
+              &lt;gco:CharacterString&gt;{ENDPOINT_URI}&lt;/gco:CharacterString&gt;
+            &lt;/cit:linkage&gt;
+            &lt;cit:protocol&gt;
+              &lt;gco:CharacterString&gt;{PROTOCOL}&lt;/gco:CharacterString&gt;
+            &lt;/cit:protocol&gt;
+            &lt;cit:protocolRequest&gt;
+              &lt;gco:CharacterString&gt;{REQUEST_EXAMPLE}&lt;/gco:CharacterString&gt;
+            &lt;/cit:protocolRequest&gt;
+            &lt;/mcc:CI_OnlineResource&gt;
+          &lt;/cit:onlineResource&gt;
+        &lt;/cit:CI_Citation&gt;
+      &lt;mrl:sourceCitation&gt;
+    &lt;/mrl:LI_Source&gt;
+  &lt;mrl:LI_Lineage&gt;
+&lt;/mdb:resourceLineage&gt;
+</code>
+</pre><h2>Example</h2>
+<p>For a Dataset X with a SPARQL query service at <a href="http://location.com/sparql">http://location.com/sparql</a>, the following XML might be used:</p>
+<pre>
+<code>
+&lt;mdb:resourceLineage&gt;
+  &lt;mrl:LI_Lineage&gt;
+    &lt;mrl:LI_Source&gt;
+      &lt;mrl:sourceCitation&gt;
+        &lt;cit:CI_Citation&gt;
+          &lt;cit:title&gt;
+            &lt;gco:CharacterString&gt;Provenance Query Service&lt;/gco:CharacterString&gt;
+          &lt;/cit:title&gt;
+          &lt;cit:onlineResource&gt;
+            &lt;mcc:CI_OnlineResource&gt;
+            &lt;cit:name&gt;
+              &lt;gco:CharacterString&gt;Corporation A's Provenance Finder&lt;/CharacterString&gt;
+            &lt;/cit:name&gt;
+            &lt;cit:function&gt;
+              &lt;cit:CI_OnLineFunctionCode codeList="codeListLocation#CI_OnLineFunctionCode" codeListValue="provenanceQueryService"/&gt;
+            &lt;/cit:function&gt;
+            &lt;cit:linkage&gt;
+              &lt;gco:CharacterString&gt;http://location.com/sparql&lt;/gco:CharacterString&gt;
+            &lt;/cit:linkage&gt;
+            &lt;cit:protocol&gt;
+              &lt;gco:CharacterString&gt;HTTP-SPARQL&lt;/gco:CharacterString&gt;
+            &lt;/cit:protocol&gt;
+            &lt;cit:protocolRequest&gt;
+              &lt;gco:CharacterString&gt;
+                http://location.com/sparql?query=DESCRIBE%20%3Chttp%3A%2F%2Fexample.com%2Fdataset%2Fx%3E
+              &lt;/gco:CharacterString&gt;
+            &lt;/cit:protocolRequest&gt;
+            &lt;/mcc:CI_OnlineResource&gt;
+          &lt;/cit:onlineResource&gt;
+        &lt;/cit:CI_Citation&gt;
+      &lt;mrl:sourceCitation&gt;
+    &lt;/mrl:LI_Source&gt;
+  &lt;mrl:LI_Lineage&gt;
+&lt;/mdb:resourceLineage&gt;
+</code>
+</pre><p>The <strong>CI_OnlineResource.protocolRequest</strong> value used in this example is the basic SPARQL <code>DESCRIBE</code> query for the resource applied to the SPARQL service in a GET request which is then a single link consisting of;</p>
+<ul><li>the base URI of the SPARQL service (as per the <strong>CI_OnlineResource.linkage</strong> field): <code>http://location.com/sparql</code></li>
+<li>The SPARQL service standardised query parameter: <code>?query=</code></li>
+<li>The URL-encoded version of the query: <code>DESCRIBE%20%3Chttp%3A%2F%2Fexample.com%2Fdataset%2Fx%3E</code> for the query <code>DESCRIBE &lt;http://example.com/dataset/x&gt;;</code></li>
+</ul></div></div></div><div class="field field-name-field-svg-image field-type-file field-label-above"><div class="field-label">SVG Image:&nbsp;</div><div class="field-items"><div class="field-item even"><span class="file"><img class="file-icon" alt="File" title="image/svg+xml" src="/modules/file/icons/image-x-generic.png" /> <a href="https://patterns.promsns.org/sites/default/files/Pattern_25_0.svg" type="image/svg+xml; length=3284">Pattern_25.svg</a></span></div></div></div><div class="field field-name-field-broader-pattern field-type-node-reference field-label-above"><div class="field-label">Broader Pattern:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/pattern/12">Associating metadata in documents with graph provenance</a></div></div></div>  </div>
+
+  
+  <div id="comments" class="comment-wrapper">
+  
+  
+      <h2 class="title comment-form">Add new comment</h2>
+    <form class="comment-form" action="/comment/reply/99" method="post" id="comment-form" accept-charset="UTF-8"><div><div id="edit-author--2" class="form-item form-type-item">
+  <label for="edit-author--2">Your name </label>
+ <span class="username" xml:lang="" about="/user/ddubin" typeof="sioc:UserAccount" property="foaf:name" datatype="">ddubin</span>
+</div>
+<div class="form-item form-type-textfield form-item-subject">
+  <label for="edit-subject">Subject </label>
+ <input type="text" id="edit-subject" name="subject" value="" size="60" maxlength="64" class="form-text" />
+</div>
+<div class="field-type-text-long field-name-comment-body field-widget-text-textarea form-wrapper" id="edit-comment-body"><div id="comment-body-add-more-wrapper"><div class="text-format-wrapper"><div class="form-item form-type-textarea form-item-comment-body-und-0-value">
+  <label for="edit-comment-body-und-0-value">Comment <span class="form-required" title="This field is required.">*</span></label>
+ <div class="form-textarea-wrapper resizable"><textarea class="text-full wysiwyg form-textarea required" id="edit-comment-body-und-0-value" name="comment_body[und][0][value]" cols="60" rows="5"></textarea></div>
+</div>
+<fieldset class="filter-wrapper form-wrapper" id="edit-comment-body-und-0-format"><div class="fieldset-wrapper"><div class="filter-help form-wrapper" id="edit-comment-body-und-0-format-help"><p><a href="/filter/tips" target="_blank">More information about text formats</a></p></div><div class="form-item form-type-select form-item-comment-body-und-0-format">
+  <label for="edit-comment-body-und-0-format--2">Text format </label>
+ <select class="filter-list form-select" id="edit-comment-body-und-0-format--2" name="comment_body[und][0][format]"><option value="markdown" selected="selected">Markdown</option><option value="filtered_html">Filtered HTML</option><option value="plain_text">Plain text</option></select>
+</div>
+<div class="filter-guidelines form-wrapper" id="edit-comment-body-und-0-format-guidelines"><div class="filter-guidelines-item filter-guidelines-markdown"><h3>Markdown</h3><ul class="tips"><li>Quick Tips:<ul>
+      <li>Two or more spaces at a line's end = Line break</li>
+      <li>Double returns = Paragraph</li>
+      <li>*Single asterisks* or _single underscores_ = <em>Emphasis</em></li>
+      <li>**Double** or __double__ = <strong>Strong</strong></li>
+      <li>This is [a link](http://the.link.example.com "The optional title text")</li>
+      </ul>For complete details on the Markdown syntax, see the <a href="http://daringfireball.net/projects/markdown/syntax">Markdown documentation</a> and <a href="http://michelf.com/projects/php-markdown/extra/">Markdown Extra documentation</a> for tables, footnotes, and more.</li></ul></div><div class="filter-guidelines-item filter-guidelines-filtered_html"><h3>Filtered HTML</h3><ul class="tips"><li>Web page addresses and e-mail addresses turn into links automatically.</li><li>Allowed HTML tags: &lt;a&gt; &lt;em&gt; &lt;strong&gt; &lt;cite&gt; &lt;blockquote&gt; &lt;code&gt; &lt;ul&gt; &lt;ol&gt; &lt;li&gt; &lt;dl&gt; &lt;dt&gt; &lt;dd&gt;</li><li>Lines and paragraphs break automatically.</li></ul></div><div class="filter-guidelines-item filter-guidelines-plain_text"><h3>Plain text</h3><ul class="tips"><li>No HTML tags allowed.</li><li>Web page addresses and e-mail addresses turn into links automatically.</li><li>Lines and paragraphs break automatically.</li></ul></div></div></div></fieldset>
+</div>
+</div></div><input type="hidden" name="form_build_id" value="form-g6N8JuQq1hs3_azpPeAEmj4hhNGJ2owTbqCK2pkSXvE" />
+<input type="hidden" name="form_token" value="I_qnzWVNe782Xzxwn1TYdj9XyX7U3vq6lB5ZXs5x1d0" />
+<input type="hidden" name="form_id" value="comment_node_patterns_form" />
+<fieldset class="captcha form-wrapper"><legend><span class="fieldset-legend">CAPTCHA</span></legend><div class="fieldset-wrapper"><div class="fieldset-description">This question is for testing whether or not you are a human visitor and to prevent automated spam submissions.</div><input type="hidden" name="captcha_sid" value="56880" />
+<input type="hidden" name="captcha_token" value="6e13e3b7a8ee975329d74a7fda8b0838" />
+<img typeof="foaf:Image" src="/image_captcha?sid=56880&amp;ts=1540337365" width="180" height="60" alt="Image CAPTCHA" title="Image CAPTCHA" /><div class="form-item form-type-textfield form-item-captcha-response">
+  <label for="edit-captcha-response">What code is in the image? <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" id="edit-captcha-response" name="captcha_response" value="" size="15" maxlength="128" class="form-text required" />
+<div class="description">Enter the characters shown in the image.</div>
+</div>
+</div></fieldset>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Save" class="form-submit" /><input type="submit" id="edit-preview" name="op" value="Preview" class="form-submit" /></div></div></form>  </div>
+
+</div>
+  </div>
+</div>
+  </div>
+      
+    </div></div> <!-- /.section, /#content -->
+
+    
+  </div></div> <!-- /#main, /#main-wrapper -->
+
+  
+  <div id="footer-wrapper"><div class="section">
+
+    
+          <div id="footer" class="clearfix">
+          <div class="region region-footer">
+    <div id="block-system-powered-by" class="block block-system">
+
+    
+  <div class="content">
+    <span>Powered by <a href="https://www.drupal.org">Drupal</a></span>  </div>
+</div>
+  </div>
+      </div> <!-- /#footer -->
+    
+  </div></div> <!-- /.section, /#footer-wrapper -->
+
+</div></div> <!-- /#page, /#page-wrapper -->
+    <div class="region region-page-bottom">
+    <form id="autologout-cache-check"><input type="hidden" id="autologout-cache-check-bit" value="0" /></form>  </div>
+</body>
+</html>
