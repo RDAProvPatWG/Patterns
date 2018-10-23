@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="24cm" height="25cm" viewBox="162 311 464 484" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <polygon style="fill: #ffffff" points="163.9,312.85 320,312.85 320,468.95 280.975,507.975 163.9,507.975 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="163.9,312.85 320,312.85 320,468.95 280.975,507.975 163.9,507.975 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #aaaaaa" points="163.9,312.85 320,312.85 320,468.95 280.975,507.975 163.9,507.975 "/>
+  </g>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="210.15" y="356.75">
+    <tspan x="210.15" y="356.75">Metadata </tspan>
+    <tspan x="210.15" y="372.75">Document</tspan>
+  </text>
+  <g>
+    <polygon style="fill: #ffffff" points="447.15,312.85 603.25,312.85 603.25,468.95 564.225,507.975 447.15,507.975 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="447.15,312.85 603.25,312.85 603.25,468.95 564.225,507.975 447.15,507.975 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #aaaaaa" points="447.15,312.85 603.25,312.85 603.25,468.95 564.225,507.975 447.15,507.975 "/>
+  </g>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="485.776" y="356.75">
+    <tspan x="485.776" y="356.75">Provenance </tspan>
+    <tspan x="485.776" y="372.75"> Document</tspan>
+  </text>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="320" y1="410.412" x2="442.678" y2="410.412"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="434.914,415.412 444.914,410.412 434.914,405.412 "/>
+  </g>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="332.55" y="395.25">
+    <tspan x="332.55" y="395.25">has_provenance</tspan>
+  </text>
+  <g>
+    <polygon style="fill: #ffffff" points="163.9,599.6 320,599.6 320,755.7 280.975,794.725 163.9,794.725 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="163.9,599.6 320,599.6 320,755.7 280.975,794.725 163.9,794.725 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #aaaaaa" points="163.9,599.6 320,599.6 320,755.7 280.975,794.725 163.9,794.725 "/>
+  </g>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="208.8" y="643.5">
+    <tspan x="208.8" y="643.5">Metadata </tspan>
+    <tspan x="208.8" y="659.5">Document</tspan>
+  </text>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="320" y1="697.162" x2="441.074" y2="697.943"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="433.278,702.893 443.31,697.958 433.342,692.893 "/>
+  </g>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="329.85" y="682">
+    <tspan x="329.85" y="682">has_query_service</tspan>
+  </text>
+  <g>
+    <ellipse style="fill: #ffffd6" cx="518.423" cy="697.973" rx="72.8771" ry="32.8225"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="518.423" cy="697.973" rx="72.8771" ry="32.8225"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #aaaaaa" cx="518.423" cy="697.973" rx="72.8771" ry="32.8225"/>
+  </g>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="473.952" y="703.95">
+    <tspan x="473.952" y="703.95">Web Service X</tspan>
+  </text>
+  <g>
+    <ellipse style="fill: #ffffd6" cx="517.177" cy="587.723" rx="72.8771" ry="32.8225"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="517.177" cy="587.723" rx="72.8771" ry="32.8225"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #aaaaaa" cx="517.177" cy="587.723" rx="72.8771" ry="32.8225"/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" x1="517" y1="507" x2="517.161" y2="550.428"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="512.132,542.683 517.169,552.664 522.132,542.646 "/>
+  </g>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="496.3" y="593.8">
+    <tspan x="496.3" y="593.8">Bundle</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="533.3" y="537.8">
+    <tspan x="533.3" y="537.8">type (inferred)</tspan>
+  </text>
+</svg>

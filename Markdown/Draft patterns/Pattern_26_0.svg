@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="27cm" height="17cm" viewBox="-15 6 535 329" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <polygon style="fill: #ffffff" points="7.9,7.6 164,7.6 164,163.7 124.975,202.725 7.9,202.725 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="7.9,7.6 164,7.6 164,163.7 124.975,202.725 7.9,202.725 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #aaaaaa" points="7.9,7.6 164,7.6 164,163.7 124.975,202.725 7.9,202.725 "/>
+  </g>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="52.8" y="51.5">
+    <tspan x="52.8" y="51.5"> Metadata </tspan>
+    <tspan x="52.8" y="67.5">Document</tspan>
+    <tspan x="52.8" y="83.5"></tspan>
+    <tspan x="52.8" y="99.5"> Dataset X</tspan>
+  </text>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="164" y1="105.162" x2="352.528" y2="104.576"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="344.78,109.601 354.764,104.569 344.748,99.6006 "/>
+  </g>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="194.85" y="306">
+    <tspan x="194.85" y="306">has_query_service</tspan>
+  </text>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" x1="80" y1="204" x2="80" y2="248.528"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="75,240.764 80,250.764 85,240.764 "/>
+  </g>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="88" y="231">
+    <tspan x="88" y="231">inferred</tspan>
+  </text>
+  <g>
+    <path style="fill: #ffffff" d="M 43 252 L 113,252 C 148,252 148,252 148,267 L 148,297 C 148,312 148,312 113,312 L 43,312 C 8,312 8,312 8,297 L 8,267 C 8,252 8,252 43,252z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 43 252 L 113,252 C 148,252 148,252 148,267 L 148,297 C 148,312 148,312 113,312 L 43,312 C 8,312 8,312 8,297 L 8,267 C 8,252 8,252 43,252"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="25" y="276.9">
+      <tspan x="25" y="276.9">      PROV DM </tspan>
+      <tspan x="25" y="292.9">    Class Object</tspan>
+    </text>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="357,7 513.1,7 513.1,163.1 474.075,202.125 357,202.125 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="357,7 513.1,7 513.1,163.1 474.075,202.125 357,202.125 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #aaaaaa" points="357,7 513.1,7 513.1,163.1 474.075,202.125 357,202.125 "/>
+  </g>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="399.952" y="49.95">
+    <tspan x="399.952" y="49.95"> Metadata</tspan>
+    <tspan x="399.952" y="65.95">Document</tspan>
+    <tspan x="399.952" y="81.95"></tspan>
+    <tspan x="399.952" y="97.95"> Service Y</tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="340" y="57">
+    <tspan x="340" y="57"></tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="357" y="44">
+    <tspan x="357" y="44"></tspan>
+  </text>
+  <g>
+    <g>
+      <ellipse style="fill: #ffffd6" cx="440.441" cy="280.802" rx="78.4661" ry="35.3397"/>
+      <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="440.441" cy="280.802" rx="78.4661" ry="35.3397"/>
+      <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #aaaaaa" cx="440.441" cy="280.802" rx="78.4661" ry="35.3397"/>
+    </g>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="395" y="284">
+      <tspan x="395" y="284">Web Service Y</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" x1="441" y1="201" x2="440.497" y2="240.99"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="435.595,233.164 440.469,243.226 445.594,233.29 "/>
+  </g>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="457.4" y="231.9">
+    <tspan x="457.4" y="231.9">inferred</tspan>
+  </text>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="149" y1="281" x2="357.502" y2="280.806"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="349.743,285.813 359.739,280.804 349.734,275.813 "/>
+  </g>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="176" y="48">
+    <tspan x="176" y="48">     associatedResource</tspan>
+    <tspan x="176" y="64"></tspan>
+    <tspan x="176" y="80"> DS_AssociationTypeCode</tspan>
+    <tspan x="176" y="96">=provenanceQueryService</tspan>
+  </text>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" x1="256" y1="104" x2="255.5" y2="276.429"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="250.523,268.65 255.494,278.665 260.523,268.679 "/>
+  </g>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="267.4" y="231.9">
+    <tspan x="267.4" y="231.9">inferred</tspan>
+  </text>
+</svg>
